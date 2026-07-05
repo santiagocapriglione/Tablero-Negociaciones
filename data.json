@@ -5,8 +5,8 @@
    "direccion": "Aristóbulo del Valle 2280",
    "localidad": "Florida",
    "estado": "En negociación",
-   "comprador": "",
-   "vendedor": "",
+   "comprador": "Sabina (apellido a confirmar: figura en la reserva en Dropbox / Vicente López / Aristóbulo del Valle 2280)",
+   "vendedor": "María Paula Rizo",
    "telComprador": "",
    "telVendedor": "",
    "ofertaCompra": "237000",
@@ -36,9 +36,14 @@
      "fecha": "2026-07-05",
      "parte": "vendedor",
      "nota": "Aceptan los 237.000 ad referendum de que se concrete la venta de la propiedad que tienen reservada/reforzada y que su documentación esté OK. Pueden entregar Aristóbulo del Valle en ~2 meses. Compraron Santa Rosa 22934 (también nuestra), que les entregan en 3 meses, máximo 6 — queda una cuestión de ocupación a resolver. Valor de escrituración y fecha de firma sin definir."
+    },
+    {
+     "fecha": "2026-07-05",
+     "parte": "sistema",
+     "nota": "Se registran las partes: compradora Sabina (apellido pendiente, verificar en la reserva en Dropbox / Vicente López / Aristóbulo del Valle 2280) y vendedora María Paula Rizo."
     }
    ],
-   "updatedAt": "2026-07-05T20:17:22.000Z"
+   "updatedAt": "2026-07-05T21:00:00.000Z"
   },
   {
    "id": "pejemplo1",
@@ -86,6 +91,6 @@
    "updatedAt": "2026-06-20T15:00:00.000Z"
   }
  ],
- "updatedAt": "2026-07-05T20:17:22.000Z",
+ "updatedAt": "2026-07-05T21:00:00.000Z",
  "_nota": "PROPIEDAD DE EJEMPLO: eliminala desde el tablero cuando cargues las reales. Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
 }
