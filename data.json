@@ -38,7 +38,7 @@
    "direccion": "Aristóbulo del Valle 2280",
    "localidad": "Florida",
    "estado": "En negociación",
-   "comprador": "Sabina (apellido a confirmar: figura en la reserva en Dropbox / Vicente López / Aristóbulo del Valle 2280)",
+   "comprador": "Sabina Laura Gorini",
    "vendedor": "María Paula Rizo",
    "telComprador": "",
    "telVendedor": "",
@@ -74,11 +74,16 @@
      "fecha": "2026-07-05",
      "parte": "sistema",
      "nota": "Se registran las partes: compradora Sabina (apellido pendiente, verificar en la reserva en Dropbox / Vicente López / Aristóbulo del Valle 2280) y vendedora María Paula Rizo."
+    },
+    {
+     "fecha": "2026-07-05",
+     "parte": "sistema",
+     "nota": "Apellido de la compradora confirmado vía DocuSign (Actualizacion_Oferta_AristobuloDelValle2280_Gorini.pdf, firmado el 04/07): Sabina Laura Gorini."
     }
    ],
-   "updatedAt": "2026-07-05T21:00:00.000Z"
+   "updatedAt": "2026-07-05T21:45:00.000Z"
   }
  ],
- "updatedAt": "2026-07-05T21:22:46.000Z",
+ "updatedAt": "2026-07-05T21:45:00.000Z",
  "_nota": "Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
 }
