@@ -1,6 +1,46 @@
 {
  "props": [
   {
+   "id": "pmr88fxjq",
+   "direccion": "Aristóbulo del Valle 2280",
+   "localidad": "Florida",
+   "estado": "En negociación",
+   "comprador": "",
+   "vendedor": "",
+   "telComprador": "",
+   "telVendedor": "",
+   "ofertaCompra": "237000",
+   "contraoferta": "",
+   "valorAcordado": "237000",
+   "valorEscrituracion": "",
+   "formaPago": "",
+   "fechaEntrega": "2026-09-05",
+   "requisitosComprador": "Hará el refuerzo cuando cobre el refuerzo de la venta de su propia casa (estimado en ~15 días, hacia el 20/07/2026)",
+   "requisitosVendedor": "Aceptan el valor ad referendum de que se concrete la venta de la propiedad que tienen reservada y reforzada, y de que la documentación de esa propiedad esté OK",
+   "condicionesEspeciales": "Vendedores compraron Santa Rosa 22934 (operación también nuestra): se la entregan en 3 a 6 meses, mientras que ellos entregarían esta casa en ~2 meses — gap de ocupación a resolver. Valor de escrituración y fecha de firma aún sin hablar.",
+   "reservaFecha": "",
+   "reservaVence": "",
+   "reservaMonto": "",
+   "refuerzos": [
+    { "fecha": "2026-07-20", "monto": "", "pagado": false }
+   ],
+   "boletoFecha": "",
+   "escrituraFecha": "",
+   "seguimiento": [
+    {
+     "fecha": "2026-07-05",
+     "parte": "comprador",
+     "nota": "Actualizó la oferta a 237.000 USD. Pide hacer el refuerzo una vez que reciba el refuerzo de la venta de su casa, que ocurriría en ~15 días."
+    },
+    {
+     "fecha": "2026-07-05",
+     "parte": "vendedor",
+     "nota": "Aceptan los 237.000 ad referendum de que se concrete la venta de la propiedad que tienen reservada/reforzada y que su documentación esté OK. Pueden entregar Aristóbulo del Valle en ~2 meses. Compraron Santa Rosa 22934 (también nuestra), que les entregan en 3 meses, máximo 6 — queda una cuestión de ocupación a resolver. Valor de escrituración y fecha de firma sin definir."
+    }
+   ],
+   "updatedAt": "2026-07-05T20:17:22.000Z"
+  },
+  {
    "id": "pejemplo1",
    "direccion": "Riobamba 1234, 5°B",
    "localidad": "Recoleta",
@@ -46,6 +86,6 @@
    "updatedAt": "2026-06-20T15:00:00.000Z"
   }
  ],
- "updatedAt": "2026-06-20T15:00:00.000Z",
+ "updatedAt": "2026-07-05T20:17:22.000Z",
  "_nota": "PROPIEDAD DE EJEMPLO: eliminala desde el tablero cuando cargues las reales. Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
 }
