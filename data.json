@@ -1,0 +1,51 @@
+{
+ "props": [
+  {
+   "id": "pejemplo1",
+   "direccion": "Riobamba 1234, 5°B",
+   "localidad": "Recoleta",
+   "estado": "Reservada",
+   "comprador": "Juan Pérez",
+   "vendedor": "María González",
+   "telComprador": "",
+   "telVendedor": "",
+   "ofertaCompra": "175000",
+   "contraoferta": "188000",
+   "valorAcordado": "182000",
+   "valorEscrituracion": "160000",
+   "formaPago": "Transferencia bancaria por el total en escribanía",
+   "fechaEntrega": "2026-08-10",
+   "requisitosComprador": "Sujeto a aprobación de crédito hipotecario (Banco Nación, 60 días)",
+   "requisitosVendedor": "Necesita permanecer en la propiedad hasta fin de julio",
+   "condicionesEspeciales": "Deja los dos aires acondicionados y las cortinas del living",
+   "reservaFecha": "2026-06-20",
+   "reservaVence": "2026-07-11",
+   "reservaMonto": "5000",
+   "refuerzos": [
+    { "fecha": "2026-07-15", "monto": "15000", "pagado": false }
+   ],
+   "boletoFecha": "2026-07-25",
+   "escrituraFecha": "2026-08-28",
+   "seguimiento": [
+    {
+     "fecha": "2026-06-18",
+     "parte": "comprador",
+     "nota": "Ofertó 175.000 USD. Necesita crédito por el 40%. Pide entrega antes de septiembre por mudanza."
+    },
+    {
+     "fecha": "2026-06-19",
+     "parte": "vendedor",
+     "nota": "Contraofertó 188.000. Acepta esperar el crédito si hay reserva firmada. Quiere quedarse hasta fin de julio."
+    },
+    {
+     "fecha": "2026-06-20",
+     "parte": "sistema",
+     "nota": "Se firmó reserva por 5.000 USD a valor acordado de 182.000. Vence 11/07. Refuerzo pactado 15/07."
+    }
+   ],
+   "updatedAt": "2026-06-20T15:00:00.000Z"
+  }
+ ],
+ "updatedAt": "2026-06-20T15:00:00.000Z",
+ "_nota": "PROPIEDAD DE EJEMPLO: eliminala desde el tablero cuando cargues las reales. Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
+}
