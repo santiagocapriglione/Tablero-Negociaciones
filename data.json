@@ -1,6 +1,39 @@
 {
  "props": [
   {
+   "id": "pmr8a4n6a",
+   "direccion": "Fitz Roy 2210",
+   "localidad": "CABA",
+   "estado": "En negociación",
+   "comprador": "Matías Climent",
+   "vendedor": "Federico Tobler",
+   "telComprador": "",
+   "telVendedor": "",
+   "ofertaCompra": "132000",
+   "contraoferta": "",
+   "valorAcordado": "132000",
+   "valorEscrituracion": "100000",
+   "formaPago": "En negociación: vendedor quiere 100.000 USD por transferencia/depósito y 32.000 en mano; comprador quería todo en mano en banco elegido por él. Se negocia hacerlo en Banco Santander (propuesto por el comprador): el vendedor abriría cuenta ahí para recibir los 100.000.",
+   "fechaEntrega": "",
+   "requisitosComprador": "",
+   "requisitosVendedor": "Abrir cuenta en Banco Santander para recibir los 100.000 USD por transferencia o depósito",
+   "condicionesEspeciales": "",
+   "reservaFecha": "",
+   "reservaVence": "",
+   "reservaMonto": "",
+   "refuerzos": [],
+   "boletoFecha": "",
+   "escrituraFecha": "",
+   "seguimiento": [
+    {
+     "fecha": "2026-07-05",
+     "parte": "sistema",
+     "nota": "Oferta de 132.000 USD aceptada. Vendedor (Federico Tobler) quiere 100.000 por transferencia y 32.000 en mano; comprador (Matías Climent) quería entregar todo en mano en banco elegido por él. Se negocia canalizar la operación por Banco Santander (propuesta del comprador): Federico está viendo si abre una cuenta ahí para recibir los 100.000 por transferencia o depósito. Valor de escrituración: 100.000 USD."
+    }
+   ],
+   "updatedAt": "2026-07-05T21:04:35.000Z"
+  },
+  {
    "id": "pmr88fxjq",
    "direccion": "Aristóbulo del Valle 2280",
    "localidad": "Florida",
@@ -86,6 +119,6 @@
    "updatedAt": "2026-06-20T15:00:00.000Z"
   }
  ],
- "updatedAt": "2026-07-05T20:17:22.000Z",
+ "updatedAt": "2026-07-05T21:04:35.000Z",
  "_nota": "PROPIEDAD DE EJEMPLO: eliminala desde el tablero cuando cargues las reales. Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
 }
