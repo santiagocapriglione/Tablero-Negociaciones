@@ -34,6 +34,39 @@
    "updatedAt": "2026-07-05T21:04:35.000Z"
   },
   {
+   "id": "pmr8a3j9i",
+   "direccion": "Loyola 440, 7° B",
+   "localidad": "CABA",
+   "estado": "En negociación",
+   "comprador": "",
+   "vendedor": "",
+   "telComprador": "",
+   "telVendedor": "",
+   "ofertaCompra": "184000",
+   "contraoferta": "",
+   "valorAcordado": "184000",
+   "valorEscrituracion": "",
+   "formaPago": "",
+   "fechaEntrega": "",
+   "requisitosComprador": "Quiere transferir el monto total (184.000) por vía bancaria",
+   "requisitosVendedor": "Quiere escriturar por el 50-60% del valor y acepta que le transfieran solo ese monto, no más",
+   "condicionesEspeciales": "El monto a escriturar (en blanco) lo definirá el VIR (valor inmobiliario de referencia), disponible el lunes 06/07; a partir de eso se define cómo se instrumenta el pago",
+   "reservaFecha": "",
+   "reservaVence": "",
+   "reservaMonto": "",
+   "refuerzos": [],
+   "boletoFecha": "",
+   "escrituraFecha": "",
+   "seguimiento": [
+    {
+     "fecha": "2026-07-05",
+     "parte": "sistema",
+     "nota": "Oferta actualizada a 184.000 USD, aceptada por el vendedor. Vendedor quiere escriturar por el 50-60% y que le transfieran solo ese monto; el comprador quiere transferir el total. El monto escriturado lo definirá el VIR (valor inmobiliario de referencia), que estará el lunes 06/07, y a partir de eso se define."
+    }
+   ],
+   "updatedAt": "2026-07-05T21:03:43.686Z"
+  },
+  {
    "id": "pmr88fxjq",
    "direccion": "Aristóbulo del Valle 2280",
    "localidad": "Florida",
