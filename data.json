@@ -115,8 +115,41 @@
     }
    ],
    "updatedAt": "2026-07-05T21:45:00.000Z"
+  },
+  {
+   "id": "pthr8mz",
+   "direccion": "Checabuco 2550",
+   "localidad": "Olivos",
+   "estado": "En negociación",
+   "comprador": "",
+   "vendedor": "",
+   "telComprador": "",
+   "telVendedor": "",
+   "ofertaCompra": "",
+   "contraoferta": "",
+   "valorAcordado": "550000",
+   "valorEscrituracion": "300000",
+   "formaPago": "Se descartó el crédito. Pendiente definir si el comprador paga en efectivo o por transferencia: si es en efectivo, firmarían en el Banco Galicia, alguna sede de CABA; si es por transferencia, hay que estructurarla bien.",
+   "fechaEntrega": "",
+   "requisitosComprador": "Definir si paga en efectivo o por transferencia",
+   "requisitosVendedor": "",
+   "condicionesEspeciales": "El boleto se haría por 300.000 USD sobre un valor de compra total acordado de 550.000 USD. Boleto estimado para esta semana o la próxima. Pendiente averiguar fecha de escritura final una vez definida la forma de pago.",
+   "reservaFecha": "",
+   "reservaVence": "",
+   "reservaMonto": "",
+   "refuerzos": [],
+   "boletoFecha": "",
+   "escrituraFecha": "",
+   "seguimiento": [
+    {
+     "fecha": "2026-07-06",
+     "parte": "sistema",
+     "nota": "No hay crédito. Se hará boleto por 300.000 USD sobre un valor de compra acordado de 550.000 USD. El boleto podría firmarse esta semana o la próxima. Falta definir si el comprador paga en efectivo (se firmaría en Banco Galicia, alguna sede de CABA) o por transferencia (habría que estructurarla bien); una vez definido eso, averiguar la fecha de escrituración final."
+    }
+   ],
+   "updatedAt": "2026-07-06T00:00:00.000Z"
   }
  ],
- "updatedAt": "2026-07-05T22:16:36.000Z",
+ "updatedAt": "2026-07-06T00:00:00.000Z",
  "_nota": "Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
 }
