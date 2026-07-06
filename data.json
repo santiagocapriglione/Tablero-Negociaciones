@@ -1,122 +1,57 @@
 {
  "props": [
   {
-   "id": "pmr8a4n6a",
-   "direccion": "Fitz Roy 2210",
-   "localidad": "CABA",
-   "estado": "En negociación",
-   "comprador": "Matías Climent",
-   "vendedor": "Federico Tobler",
+   "id": "pejemplo1",
+   "direccion": "Riobamba 1234, 5°B",
+   "localidad": "Recoleta",
+   "estado": "Reservada",
+   "comprador": "Juan Pérez",
+   "vendedor": "María González",
    "telComprador": "",
    "telVendedor": "",
-   "ofertaCompra": "132000",
-   "contraoferta": "",
-   "valorAcordado": "132000",
-   "valorEscrituracion": "100000",
-   "formaPago": "En negociación: vendedor quiere 100.000 USD por transferencia/depósito y 32.000 en mano; comprador quería todo en mano en banco elegido por él. Se negocia hacerlo en Banco Santander (propuesto por el comprador): el vendedor abriría cuenta ahí para recibir los 100.000.",
-   "fechaEntrega": "",
-   "requisitosComprador": "",
-   "requisitosVendedor": "Abrir cuenta en Banco Santander para recibir los 100.000 USD por transferencia o depósito",
-   "condicionesEspeciales": "",
-   "reservaFecha": "",
-   "reservaVence": "",
-   "reservaMonto": "",
-   "refuerzos": [],
-   "boletoFecha": "",
-   "escrituraFecha": "",
-   "seguimiento": [
-    {
-     "fecha": "2026-07-05",
-     "parte": "sistema",
-     "nota": "Oferta de 132.000 USD aceptada. Vendedor (Federico Tobler) quiere 100.000 por transferencia y 32.000 en mano; comprador (Matías Climent) quería entregar todo en mano en banco elegido por él. Se negocia canalizar la operación por Banco Santander (propuesta del comprador): Federico está viendo si abre una cuenta ahí para recibir los 100.000 por transferencia o depósito. Valor de escrituración: 100.000 USD."
-    }
-   ],
-   "updatedAt": "2026-07-05T21:04:35.000Z"
-  },
-  {
-   "id": "pmr8a3j9i",
-   "direccion": "Loyola 440, 7° B",
-   "localidad": "CABA",
-   "estado": "En negociación",
-   "comprador": "",
-   "vendedor": "",
-   "telComprador": "",
-   "telVendedor": "",
-   "ofertaCompra": "184000",
-   "contraoferta": "",
-   "valorAcordado": "184000",
-   "valorEscrituracion": "",
-   "formaPago": "",
-   "fechaEntrega": "",
-   "requisitosComprador": "Quiere transferir el monto total (184.000) por vía bancaria",
-   "requisitosVendedor": "Quiere escriturar por el 50-60% del valor y acepta que le transfieran solo ese monto, no más",
-   "condicionesEspeciales": "El monto a escriturar (en blanco) lo definirá el VIR (valor inmobiliario de referencia), disponible el lunes 06/07; a partir de eso se define cómo se instrumenta el pago",
-   "reservaFecha": "",
-   "reservaVence": "",
-   "reservaMonto": "",
-   "refuerzos": [],
-   "boletoFecha": "",
-   "escrituraFecha": "",
-   "seguimiento": [
-    {
-     "fecha": "2026-07-05",
-     "parte": "sistema",
-     "nota": "Oferta actualizada a 184.000 USD, aceptada por el vendedor. Vendedor quiere escriturar por el 50-60% y que le transfieran solo ese monto; el comprador quiere transferir el total. El monto escriturado lo definirá el VIR (valor inmobiliario de referencia), que estará el lunes 06/07, y a partir de eso se define."
-    }
-   ],
-   "updatedAt": "2026-07-05T21:03:43.686Z"
-  },
-  {
-   "id": "pmr88fxjq",
-   "direccion": "Aristóbulo del Valle 2280",
-   "localidad": "Florida",
-   "estado": "En negociación",
-   "comprador": "Sabina Laura Gorini",
-   "vendedor": "María Paula Rizo",
-   "telComprador": "",
-   "telVendedor": "",
-   "ofertaCompra": "237000",
-   "contraoferta": "",
-   "valorAcordado": "237000",
-   "valorEscrituracion": "",
-   "formaPago": "",
-   "fechaEntrega": "2026-09-05",
-   "requisitosComprador": "Hará el refuerzo cuando cobre el refuerzo de la venta de su propia casa (estimado en ~15 días, hacia el 20/07/2026)",
-   "requisitosVendedor": "Aceptan el valor ad referendum de que se concrete la venta de la propiedad que tienen reservada y reforzada, y de que la documentación de esa propiedad esté OK",
-   "condicionesEspeciales": "Vendedores compraron Santa Rosa 22934 (operación también nuestra): se la entregan en 3 a 6 meses, mientras que ellos entregarían esta casa en ~2 meses — gap de ocupación a resolver. Valor de escrituración y fecha de firma aún sin hablar.",
-   "reservaFecha": "",
-   "reservaVence": "",
-   "reservaMonto": "",
+   "ofertaCompra": "175000",
+   "contraoferta": "188000",
+   "valorAcordado": "182000",
+   "valorEscrituracion": "160000",
+   "formaPago": "Transferencia bancaria por el total en escribanía",
+   "fechaEntrega": "2026-08-10",
+   "requisitosComprador": "Sujeto a aprobación de crédito hipotecario (Banco Nación, 60 días)",
+   "requisitosVendedor": "Necesita permanecer en la propiedad hasta fin de julio",
+   "condicionesEspeciales": "Deja los dos aires acondicionados y las cortinas del living",
+   "reservaFecha": "2026-06-20",
+   "reservaVence": "2026-07-11",
+   "reservaMonto": "5000",
    "refuerzos": [
-    { "fecha": "2026-07-20", "monto": "", "pagado": false }
+    { "fecha": "2026-07-15", "monto": "15000", "pagado": false }
    ],
-   "boletoFecha": "",
-   "escrituraFecha": "",
+   "boletoFecha": "2026-07-25",
+   "escrituraFecha": "2026-08-28",
+   "dominioPedido": true,
+   "dominioFecha": "2026-06-21",
+   "dominioRecibido": false,
+   "inhibicionPedido": false,
+   "inhibicionFecha": "",
+   "inhibicionRecibido": false,
    "seguimiento": [
     {
-     "fecha": "2026-07-05",
+     "fecha": "2026-06-18",
      "parte": "comprador",
-     "nota": "Actualizó la oferta a 237.000 USD. Pide hacer el refuerzo una vez que reciba el refuerzo de la venta de su casa, que ocurriría en ~15 días."
+     "nota": "Ofertó 175.000 USD. Necesita crédito por el 40%. Pide entrega antes de septiembre por mudanza."
     },
     {
-     "fecha": "2026-07-05",
+     "fecha": "2026-06-19",
      "parte": "vendedor",
-     "nota": "Aceptan los 237.000 ad referendum de que se concrete la venta de la propiedad que tienen reservada/reforzada y que su documentación esté OK. Pueden entregar Aristóbulo del Valle en ~2 meses. Compraron Santa Rosa 22934 (también nuestra), que les entregan en 3 meses, máximo 6 — queda una cuestión de ocupación a resolver. Valor de escrituración y fecha de firma sin definir."
+     "nota": "Contraofertó 188.000. Acepta esperar el crédito si hay reserva firmada. Quiere quedarse hasta fin de julio."
     },
     {
-     "fecha": "2026-07-05",
+     "fecha": "2026-06-20",
      "parte": "sistema",
-     "nota": "Se registran las partes: compradora Sabina (apellido pendiente, verificar en la reserva en Dropbox / Vicente López / Aristóbulo del Valle 2280) y vendedora María Paula Rizo."
-    },
-    {
-     "fecha": "2026-07-05",
-     "parte": "sistema",
-     "nota": "Apellido de la compradora confirmado vía DocuSign (Actualizacion_Oferta_AristobuloDelValle2280_Gorini.pdf, firmado el 04/07): Sabina Laura Gorini."
+     "nota": "Se firmó reserva por 5.000 USD a valor acordado de 182.000. Vence 11/07. Refuerzo pactado 15/07."
     }
    ],
-   "updatedAt": "2026-07-05T21:45:00.000Z"
+   "updatedAt": "2026-06-20T15:00:00.000Z"
   }
  ],
- "updatedAt": "2026-07-05T22:16:36.000Z",
- "_nota": "Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
+ "updatedAt": "2026-06-20T15:00:00.000Z",
+ "_nota": "PROPIEDAD DE EJEMPLO: eliminala desde el tablero cuando cargues las reales. Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
 }

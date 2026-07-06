@@ -265,6 +265,8 @@ function nuevaProp(){
     reservaFecha:'',reservaVence:'',reservaMonto:'',
     refuerzos:[], // {fecha, monto, pagado}
     boletoFecha:'',escrituraFecha:'',
+    dominioPedido:false,dominioFecha:'',dominioRecibido:false,
+    inhibicionPedido:false,inhibicionFecha:'',inhibicionRecibido:false,
     seguimiento:[], // {fecha, parte:'comprador'|'vendedor'|'sistema', nota}
     updatedAt:new Date().toISOString()};
 }
@@ -323,6 +325,14 @@ function analiza(p){
   if((st==='Reservada'||st==='Refuerzo'||st==='Boleto')&&!p.reservaVence) W('Falta cargar el vencimiento de la reserva.','time');
   if(st!=='En negociación'&&st!=='Caída'&&ac==null) W('Falta el valor acordado.','time');
   if((st==='Boleto'||st==='Refuerzo')&&!p.formaPago) W('Falta definir la forma de pago.','time');
+  // dominio e inhibición
+  if((st==='Reservada'||st==='Refuerzo'||st==='Boleto')){
+    if(!p.dominioPedido) W('Falta pedir el informe de Dominio.','time');
+    else if(!p.dominioRecibido) W('Informe de Dominio pedido, aún sin recibir.','time');
+    if(!p.inhibicionPedido) W('Falta pedir el informe de Inhibición.','time');
+    else if(!p.inhibicionRecibido) W('Informe de Inhibición pedido, aún sin recibir.','time');
+  }
+  if(st==='Boleto'&&(!p.dominioRecibido||!p.inhibicionRecibido)) W('No se puede firmar el boleto con seguridad sin Dominio e Inhibición recibidos.');
   return out;
 }
 
@@ -454,6 +464,16 @@ function buildForm(p){
     (p.refuerzos||[]).map((r,i)=>refRow(r,i)).join('')+'</div>'+
     '<button class="add-mini" onclick="addRef()">+ Agregar refuerzo</button></div>';
 
+  h+='<div class="msec"><div class="slbl">Informes de Dominio e Inhibición</div>'+
+    '<div class="fr2">'+
+    '<div><label class="paid-chk"><input type="checkbox" id="e-dom-ped"'+(p.dominioPedido?' checked':'')+' onchange="toggleInf(\'dom\')"> Dominio pedido</label>'+
+    '<div class="field" style="margin-top:5px;"><label>Fecha de pedido</label><input id="e-dom-f" type="date" value="'+esc(p.dominioFecha)+'"></div>'+
+    '<label class="paid-chk"><input type="checkbox" id="e-dom-rec"'+(p.dominioRecibido?' checked':'')+'> Dominio recibido</label></div>'+
+    '<div><label class="paid-chk"><input type="checkbox" id="e-inh-ped"'+(p.inhibicionPedido?' checked':'')+' onchange="toggleInf(\'inh\')"> Inhibición pedida</label>'+
+    '<div class="field" style="margin-top:5px;"><label>Fecha de pedido</label><input id="e-inh-f" type="date" value="'+esc(p.inhibicionFecha)+'"></div>'+
+    '<label class="paid-chk"><input type="checkbox" id="e-inh-rec"'+(p.inhibicionRecibido?' checked':'')+'> Inhibición recibida</label></div>'+
+    '</div></div>';
+
   const dp=docsPath(p);
   h+='<div class="msec"><div class="slbl">Documentación en Dropbox</div>'+
     '<div class="docs-path" onclick="copyTxt(this.textContent)" title="Tocar para copiar">'+esc(dp)+'</div>'+
@@ -478,6 +498,10 @@ function refRow(r,i){
     '<button class="del-btn" onclick="this.parentElement.remove()">✕</button></div>';
 }
 function addRef(){ document.getElementById('ref-list').insertAdjacentHTML('beforeend',refRow({},Date.now())); }
+function toggleInf(k){
+  const ped=document.getElementById('e-'+k+'-ped'), f=document.getElementById('e-'+k+'-f');
+  if(ped.checked && !f.value) f.value=hoy();
+}
 function docsPath(p){
   return 'Dropbox / 10 Propiedades Generales / '+(p.localidad||'{Localidad}')+' / '+(p.direccion||'{Dirección}');
 }
@@ -490,6 +514,8 @@ function readForm(p){
   p.formaPago=g('e-fp'); p.requisitosComprador=g('e-rc'); p.requisitosVendedor=g('e-rv'); p.condicionesEspeciales=g('e-ce');
   p.reservaFecha=g('e-rf'); p.reservaVence=g('e-rv2'); p.reservaMonto=g('e-rm');
   p.fechaEntrega=g('e-fe'); p.boletoFecha=g('e-bf'); p.escrituraFecha=g('e-ef');
+  p.dominioPedido=document.getElementById('e-dom-ped').checked; p.dominioFecha=g('e-dom-f'); p.dominioRecibido=document.getElementById('e-dom-rec').checked;
+  p.inhibicionPedido=document.getElementById('e-inh-ped').checked; p.inhibicionFecha=g('e-inh-f'); p.inhibicionRecibido=document.getElementById('e-inh-rec').checked;
   p.refuerzos=[...document.querySelectorAll('#ref-list .ref-row')].map(row=>({
     fecha:row.querySelector('.rf-f').value, monto:row.querySelector('.rf-m').value, pagado:row.querySelector('.rf-p').checked
   })).filter(r=>r.fecha||r.monto);
