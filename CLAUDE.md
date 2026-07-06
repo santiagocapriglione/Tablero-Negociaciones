@@ -1,6 +1,8 @@
 # Tablero de Negociaciones Houghton — Protocolo para Claude
 
-App estática (index.html + data.json) que Santiago hostea en GitHub Pages. **La fuente de verdad es `data.json` de esta carpeta.** El navegador lo lee al abrir la página y lo mezcla con lo editado a mano (gana el `updatedAt` más nuevo por propiedad).
+App estática (index.html + data.json) hosteada en GitHub Pages:
+- Repo: `santiagocapriglione/Tablero-Negociaciones` · URL: https://santiagocapriglione.github.io/Tablero-Negociaciones/
+- En esta Mac hay `gh` autenticado en `~/bin/gh` (cuenta santiagocapriglione). Tras actualizar `data.json`, clonar/pullear el repo, copiar el archivo y pushear a `main` — Pages republica solo en 1-2 min. **La fuente de verdad es `data.json` de esta carpeta.** El navegador lo lee al abrir la página y lo mezcla con lo editado a mano (gana el `updatedAt` más nuevo por propiedad).
 
 ## Cuando Santiago manda un audio/mensaje sobre una negociación
 
@@ -15,6 +17,7 @@ App estática (index.html + data.json) que Santiago hostea en GitHub Pages. **La
    - fechaEntrega anterior a escrituraFecha sin posesión anticipada pactada.
    - contraoferta menor que la oferta; valorAcordado fuera del rango; reserva+refuerzos > acordado; refuerzos posteriores a la escritura.
    - reservas/refuerzos vencidos o que vencen en ≤7 días → avisar SIEMPRE al final de la respuesta ("Ojo: la reserva de X vence el …").
+   - a partir de Reservada, si no está pedido el informe de Dominio o el de Inhibición → avisar. Si está en Boleto y no llegaron ambos → avisar que no debería firmarse sin esos informes.
 5. Confirmarle en 2-3 líneas qué se registró. Si el repo git está inicializado en esta carpeta, commitear y pushear para que el tablero online se actualice; si no, recordarle subir `data.json`.
 
 ## Verificación de documentos en Dropbox
@@ -46,6 +49,8 @@ Cuando pida análisis: usar el histórico de `seguimiento` + valores de todas la
  "reservaFecha": "", "reservaVence": "", "reservaMonto": "",
  "refuerzos": [{ "fecha": "", "monto": "", "pagado": false }],
  "boletoFecha": "", "escrituraFecha": "",
+ "dominioPedido": false, "dominioFecha": "", "dominioRecibido": false,
+ "inhibicionPedido": false, "inhibicionFecha": "", "inhibicionRecibido": false,
  "seguimiento": [{ "fecha": "", "parte": "comprador|vendedor|sistema", "nota": "" }],
  "updatedAt": "ISO"
 }
