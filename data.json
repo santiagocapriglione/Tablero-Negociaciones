@@ -44,7 +44,7 @@
    "direccion": "Loyola 440, 7° B",
    "localidad": "CABA",
    "estado": "En negociación",
-   "comprador": "",
+   "comprador": "Natalia Rocheti",
    "vendedor": "",
    "telComprador": "",
    "telVendedor": "",
@@ -54,9 +54,9 @@
    "valorEscrituracion": "",
    "formaPago": "",
    "fechaEntrega": "2026-09-30",
-   "requisitosComprador": "Quiere transferir el monto total (184.000) por vía bancaria",
+   "requisitosComprador": "Propone escriturar por un mínimo del 80% del valor (en vez de transferir el total como pedía antes)",
    "requisitosVendedor": "Quiere escriturar por el 50-60% del valor y acepta que le transfieran solo ese monto, no más",
-   "condicionesEspeciales": "El inquilino se queda hasta fin de septiembre 2026 (entrega recién ahí). El monto a escriturar (en blanco) lo definirá el VIR (valor inmobiliario de referencia); a partir de eso se define cómo se instrumenta el pago. En espera de que el comprador dé el OK a transferir solo el 50-60% del valor.",
+   "condicionesEspeciales": "El inquilino se queda hasta fin de septiembre 2026 (entrega recién ahí). El monto a escriturar (en blanco) lo definirá el VIR (valor inmobiliario de referencia); a partir de eso se define cómo se instrumenta el pago. Contrapropuesta de la compradora (mínimo 80% escriturado) trasladada a Nacho González, que habla con la parte vendedora — en espera de respuesta.",
    "reservaFecha": "",
    "reservaVence": "",
    "reservaMonto": "",
@@ -79,9 +79,14 @@
      "fecha": "2026-07-06",
      "parte": "vendedor",
      "nota": "El inquilino se debería quedar hasta fin de septiembre 2026 (entrega recién en esa fecha). Sigue en espera de que el comprador acepte transferir solo el 50-60% del valor acordado (en vez del total)."
+    },
+    {
+     "fecha": "2026-07-06",
+     "parte": "comprador",
+     "nota": "La compradora, Natalia Rocheti, propone escriturar por un mínimo del 80% del valor. Se trasladó la requisitoria a Nacho González (colega que habla con la parte vendedora); en espera de su respuesta."
     }
    ],
-   "updatedAt": "2026-07-06T14:00:00.000Z"
+   "updatedAt": "2026-07-06T14:30:00.000Z"
   },
   {
    "id": "pmr88fxjq",
@@ -140,6 +145,6 @@
    "updatedAt": "2026-07-05T21:45:00.000Z"
   }
  ],
- "updatedAt": "2026-07-06T14:00:00.000Z",
+ "updatedAt": "2026-07-06T14:30:00.000Z",
  "_nota": "Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
 }
