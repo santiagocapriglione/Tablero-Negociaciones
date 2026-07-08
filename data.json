@@ -17,7 +17,7 @@
    "fechaEntrega": "",
    "requisitosComprador": "",
    "requisitosVendedor": "Abrir cuenta en Banco Santander para recibir los 100.000 USD por transferencia o depósito",
-   "condicionesEspeciales": "",
+   "condicionesEspeciales": "Operación supeditada a que el vendedor abra la cuenta en Santander. Si no la abre, el comprador no puede depositarle ahí: se buscarían alternativas (quizás Banco Provincia) o se daría de baja la operación.",
    "reservaFecha": "",
    "reservaVence": "",
    "reservaMonto": "",
@@ -35,9 +35,14 @@
      "fecha": "2026-07-05",
      "parte": "sistema",
      "nota": "Oferta de 132.000 USD aceptada. Vendedor (Federico Tobler) quiere 100.000 por transferencia y 32.000 en mano; comprador (Matías Climent) quería entregar todo en mano en banco elegido por él. Se negocia canalizar la operación por Banco Santander (propuesta del comprador): Federico está viendo si abre una cuenta ahí para recibir los 100.000 por transferencia o depósito. Valor de escrituración: 100.000 USD."
+    },
+    {
+     "fecha": "2026-07-08",
+     "parte": "vendedor",
+     "nota": "A la espera de que Federico Tobler abra su cuenta en el Santander. Si no la abre, el comprador no puede depositarle en ese banco: se buscarían alternativas (quizás Banco Provincia) o se daría de baja la operación."
     }
    ],
-   "updatedAt": "2026-07-05T21:04:35.000Z"
+   "updatedAt": "2026-07-08T13:10:11.000Z"
   },
   {
    "id": "pmr8a3j9i",
@@ -145,6 +150,6 @@
    "updatedAt": "2026-07-05T21:45:00.000Z"
   }
  ],
- "updatedAt": "2026-07-06T14:30:00.000Z",
+ "updatedAt": "2026-07-08T13:10:11.000Z",
  "_nota": "Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
 }
