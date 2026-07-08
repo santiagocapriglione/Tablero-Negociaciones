@@ -148,8 +148,47 @@
     }
    ],
    "updatedAt": "2026-07-05T21:45:00.000Z"
+  },
+  {
+   "id": "pmrck6q34",
+   "direccion": "Aras del Malacate",
+   "localidad": "Exaltación de la Cruz",
+   "estado": "En negociación",
+   "comprador": "",
+   "vendedor": "Silvia Dale Sandro",
+   "telComprador": "",
+   "telVendedor": "",
+   "ofertaCompra": "",
+   "contraoferta": "",
+   "valorAcordado": "",
+   "valorEscrituracion": "",
+   "formaPago": "",
+   "fechaEntrega": "",
+   "requisitosComprador": "",
+   "requisitosVendedor": "Resolver el contrato de alquiler vigente (rescindible) antes de la entrega; terminar el trámite de regularización municipal (planos ya ingresados en Exaltación de la Cruz); obtener la cédula catastral / estado parcelario a nivel provincial (pendiente).",
+   "condicionesEspeciales": "Publicada en USD 450.000. Visita reciente muy positiva, comprador evaluando. Casa alquilada con contrato hasta noviembre, que se puede rescindir. Los planos ya están ingresados en la Municipalidad de Exaltación de la Cruz (falta terminar la regularización, en trámite). Falta la cédula catastral/estado parcelario provincial. A priori podría escriturarse bajo porque el valor inmobiliario de referencia sería bajo (a rechequear con el estado parcelario del lote).",
+   "reservaFecha": "",
+   "reservaVence": "",
+   "reservaMonto": "",
+   "refuerzos": [],
+   "boletoFecha": "",
+   "escrituraFecha": "",
+   "dominioPedido": false,
+   "dominioFecha": "",
+   "dominioRecibido": false,
+   "inhibicionPedido": false,
+   "inhibicionFecha": "",
+   "inhibicionRecibido": false,
+   "seguimiento": [
+    {
+     "fecha": "2026-07-08",
+     "parte": "sistema",
+     "nota": "Nueva negociación: casa en Aras del Malacate, Exaltación de la Cruz. Vendedora Silvia Dale Sandro. Publicada en USD 450.000. Hubo una visita muy positiva, el interesado está evaluando. Puntos clave: (1) tiene un contrato de alquiler vigente hasta noviembre, que se puede rescindir; (2) los planos ya están ingresados en la Municipalidad de Exaltación de la Cruz, falta que terminen el trámite de regularización, pero está en curso; (3) falta la cédula catastral / estado parcelario a nivel provincia; (4) a priori podría escriturarse bajo porque el valor inmobiliario de referencia del lote sería bajo, pero hay que volver a chequearlo."
+    }
+   ],
+   "updatedAt": "2026-07-08T20:57:30.000Z"
   }
  ],
- "updatedAt": "2026-07-08T13:10:11.000Z",
+ "updatedAt": "2026-07-08T20:57:30.000Z",
  "_nota": "Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
 }
