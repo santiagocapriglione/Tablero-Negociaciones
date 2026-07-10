@@ -187,8 +187,47 @@
     }
    ],
    "updatedAt": "2026-07-08T20:57:30.000Z"
+  },
+  {
+   "id": "pmrf6exsk",
+   "direccion": "San Martín 2729",
+   "localidad": "Florida",
+   "estado": "En negociación",
+   "comprador": "Alfredo Fintti",
+   "vendedor": "",
+   "telComprador": "",
+   "telVendedor": "",
+   "ofertaCompra": "155000",
+   "contraoferta": "",
+   "valorAcordado": "",
+   "valorEscrituracion": "110000",
+   "formaPago": "",
+   "fechaEntrega": "",
+   "requisitosComprador": "",
+   "requisitosVendedor": "",
+   "condicionesEspeciales": "",
+   "reservaFecha": "",
+   "reservaVence": "",
+   "reservaMonto": "",
+   "refuerzos": [],
+   "boletoFecha": "",
+   "escrituraFecha": "",
+   "dominioPedido": false,
+   "dominioFecha": "",
+   "dominioRecibido": false,
+   "inhibicionPedido": false,
+   "inhibicionFecha": "",
+   "inhibicionRecibido": false,
+   "seguimiento": [
+    {
+     "fecha": "2026-07-10",
+     "parte": "comprador",
+     "nota": "Oferta de compra de Alfredo Fintti por San Martín 2729, Florida: USD 155.000, con valor de escrituración de USD 110.000. El mensaje decía 'en A' al final, sin completar (posible referencia a banco o forma de pago) — pendiente de confirmar con Santiago."
+    }
+   ],
+   "updatedAt": "2026-07-10T00:00:00.000Z"
   }
  ],
- "updatedAt": "2026-07-08T20:57:30.000Z",
+ "updatedAt": "2026-07-10T00:00:00.000Z",
  "_nota": "Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
 }
