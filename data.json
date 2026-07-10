@@ -201,7 +201,7 @@
    "contraoferta": "",
    "valorAcordado": "",
    "valorEscrituracion": "110000",
-   "formaPago": "",
+   "formaPago": "A priori: 110.000 (valor de escrituración) por transferencia; los 45.000 restantes en efectivo.",
    "fechaEntrega": "",
    "requisitosComprador": "",
    "requisitosVendedor": "",
@@ -222,12 +222,17 @@
     {
      "fecha": "2026-07-10",
      "parte": "comprador",
-     "nota": "Oferta de compra de Alfredo Fintti por San Martín 2729, Florida: USD 155.000, con valor de escrituración de USD 110.000. El mensaje decía 'en A' al final, sin completar (posible referencia a banco o forma de pago) — pendiente de confirmar con Santiago."
+     "nota": "Oferta de compra de Alfredo Fintti por San Martín 2729, Florida: USD 155.000, con valor de escrituración de USD 110.000."
+    },
+    {
+     "fecha": "2026-07-10",
+     "parte": "comprador",
+     "nota": "Forma de pago a priori: los 110.000 (valor de escrituración) por transferencia; los 45.000 restantes (diferencia hasta 155.000) en efectivo."
     }
    ],
-   "updatedAt": "2026-07-10T00:00:00.000Z"
+   "updatedAt": "2026-07-10T01:00:00.000Z"
   }
  ],
- "updatedAt": "2026-07-10T00:00:00.000Z",
+ "updatedAt": "2026-07-10T01:00:00.000Z",
  "_nota": "Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
 }
