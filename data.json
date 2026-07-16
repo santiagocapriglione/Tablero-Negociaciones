@@ -245,10 +245,10 @@
   {
    "id": "pmrnzo6kz",
    "direccion": "Agustín Álvarez 1275",
-   "localidad": "",
+   "localidad": "Vicente López",
    "estado": "Refuerzo",
-   "comprador": "",
-   "vendedor": "",
+   "comprador": "Silvina Merdeza",
+   "vendedor": "Emilio Castaño y Victoria Blanco",
    "telComprador": "",
    "telVendedor": "",
    "ofertaCompra": "455000",
@@ -259,7 +259,7 @@
    "fechaEntrega": "",
    "requisitosComprador": "",
    "requisitosVendedor": "Cancelar embargo sobre la propiedad: ya fue cancelado, a la espera de que impacte en el informe catastral/registral",
-   "condicionesEspeciales": "Gastos compartidos entre las partes. Escrituración por el 75% del valor acordado (a confirmar, Santiago no estaba seguro del porcentaje). Había un embargo que ya fue cancelado; falta que la cancelación impacte en el catastro/registro.",
+   "condicionesEspeciales": "Gastos compartidos entre las partes. Escrituración por el 75% del valor acordado (confirmado). Había un embargo que ya fue cancelado; falta que la cancelación impacte en el catastro/registro.",
    "reservaFecha": "",
    "reservaVence": "",
    "reservaMonto": "",
@@ -279,11 +279,16 @@
      "fecha": "2026-07-16",
      "parte": "sistema",
      "nota": "Alta de la negociación por audio de Santiago: oferta cerrada en USD 455.000 con gastos compartidos. Escrituración por el 75% (~341.250 USD, a confirmar porcentaje). Ya hay un refuerzo realizado (fecha y monto a completar). Informes de dominio e inhibición pedidos. Había un embargo que ya fue cancelado; ahora hay que esperar que la cancelación impacte en el informe catastral/registral."
+    },
+    {
+     "fecha": "2026-07-16",
+     "parte": "sistema",
+     "nota": "Datos completados: la propiedad es en Vicente López. Compradora: Silvina Merdeza (documentación en la carpeta correspondiente de Dropbox). Vendedores: Emilio Castaño y Victoria Blanco. Escrituración por el 75% confirmada."
     }
    ],
-   "updatedAt": "2026-07-16T12:30:00.000Z"
+   "updatedAt": "2026-07-16T12:45:00.000Z"
   }
  ],
- "updatedAt": "2026-07-16T12:30:00.000Z",
+ "updatedAt": "2026-07-16T12:45:00.000Z",
  "_nota": "Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
 }
