@@ -15,7 +15,7 @@
    "valorEscrituracion": "100000",
    "formaPago": "En negociación: vendedor quiere 100.000 USD por transferencia/depósito y 32.000 en mano; comprador quería todo en mano en banco elegido por él. Se negocia hacerlo en Banco Santander (propuesto por el comprador): el vendedor abriría cuenta ahí para recibir los 100.000.",
    "fechaEntrega": "",
-   "requisitosComprador": "Chequear que su escribano haya recibido la documentación y que esté todo OK",
+   "requisitosComprador": "Chequear que Bauti haya enviado la documentación a su escribano y que esté todo OK",
    "requisitosVendedor": "Abrir cuenta en Banco Santander para recibir los 100.000 USD por transferencia o depósito",
    "condicionesEspeciales": "Operación supeditada a que el vendedor abra la cuenta en Santander. Si no la abre, el comprador no puede depositarle ahí: se buscarían alternativas (quizás Banco Provincia) o se daría de baja la operación.",
    "reservaFecha": "",
@@ -44,7 +44,7 @@
     {
      "fecha": "2026-07-16",
      "parte": "comprador",
-     "nota": "La documentación se envió al escribano del comprador (Matías Climent). Pendiente: chequear que la haya recibido y que esté todo OK."
+     "nota": "Bauti debía enviar la documentación al escribano del comprador (Matías Climent). Pendiente: chequear con Bauti que la haya enviado y que al escribano le haya llegado todo OK."
     }
    ],
    "updatedAt": "2026-07-16T11:57:07.000Z"
