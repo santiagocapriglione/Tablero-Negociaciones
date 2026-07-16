@@ -258,7 +258,7 @@
    "formaPago": "",
    "fechaEntrega": "",
    "requisitosComprador": "",
-   "requisitosVendedor": "Cancelar embargo sobre la propiedad: ya fue cancelado, a la espera de que impacte en el informe catastral/registral",
+   "requisitosVendedor": "Embargo cancelado, a la espera de que impacte en el informe catastral/registral. RECLAMAR documentación para el escribano: 1) título de propiedad original; 2) comprobantes de impuestos (AGIP y AySA); 3) fotocopia DNI de todos los intervinientes; 4) últimos dos servicios abonados; 5) ficha de datos electrónica completada por todos los participantes; 6) plano de mensura (si es requerido); 7) si es PH: copia del reglamento de copropiedad y comprobante de expensas con datos del administrador.",
    "condicionesEspeciales": "Gastos compartidos entre las partes. Escrituración por el 75% del valor acordado (confirmado). Había un embargo que ya fue cancelado; falta que la cancelación impacte en el catastro/registro.",
    "reservaFecha": "",
    "reservaVence": "",
@@ -284,11 +284,16 @@
      "fecha": "2026-07-16",
      "parte": "sistema",
      "nota": "Datos completados: la propiedad es en Vicente López. Compradora: Silvina Merdeza (documentación en la carpeta correspondiente de Dropbox). Vendedores: Emilio Castaño y Victoria Blanco. Escrituración por el 75% confirmada."
+    },
+    {
+     "fecha": "2026-07-16",
+     "parte": "sistema",
+     "nota": "El escribano pidió la documentación para avanzar con el trámite (hay que volver a reclamársela a los propietarios): título de propiedad original, comprobantes de impuestos (AGIP y AySA), fotocopia de DNI de todos los intervinientes, últimos dos servicios abonados, ficha de datos electrónica completada por todos, plano de mensura si es requerido y, si es PH, reglamento de copropiedad y comprobante de expensas con datos del administrador."
     }
    ],
-   "updatedAt": "2026-07-16T12:45:00.000Z"
+   "updatedAt": "2026-07-16T13:00:00.000Z"
   }
  ],
- "updatedAt": "2026-07-16T12:45:00.000Z",
+ "updatedAt": "2026-07-16T13:00:00.000Z",
  "_nota": "Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
 }
