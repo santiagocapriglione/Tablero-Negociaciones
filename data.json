@@ -241,8 +241,49 @@
     }
    ],
    "updatedAt": "2026-07-16T00:00:00.000Z"
+  },
+  {
+   "id": "pmrnzo6kz",
+   "direccion": "Agustín Álvarez 1275",
+   "localidad": "",
+   "estado": "Refuerzo",
+   "comprador": "",
+   "vendedor": "",
+   "telComprador": "",
+   "telVendedor": "",
+   "ofertaCompra": "455000",
+   "contraoferta": "",
+   "valorAcordado": "455000",
+   "valorEscrituracion": "341250",
+   "formaPago": "",
+   "fechaEntrega": "",
+   "requisitosComprador": "",
+   "requisitosVendedor": "Cancelar embargo sobre la propiedad: ya fue cancelado, a la espera de que impacte en el informe catastral/registral",
+   "condicionesEspeciales": "Gastos compartidos entre las partes. Escrituración por el 75% del valor acordado (a confirmar, Santiago no estaba seguro del porcentaje). Había un embargo que ya fue cancelado; falta que la cancelación impacte en el catastro/registro.",
+   "reservaFecha": "",
+   "reservaVence": "",
+   "reservaMonto": "",
+   "refuerzos": [
+    { "fecha": "", "monto": "", "pagado": true }
+   ],
+   "boletoFecha": "",
+   "escrituraFecha": "",
+   "dominioPedido": true,
+   "dominioFecha": "2026-07-16",
+   "dominioRecibido": false,
+   "inhibicionPedido": true,
+   "inhibicionFecha": "2026-07-16",
+   "inhibicionRecibido": false,
+   "seguimiento": [
+    {
+     "fecha": "2026-07-16",
+     "parte": "sistema",
+     "nota": "Alta de la negociación por audio de Santiago: oferta cerrada en USD 455.000 con gastos compartidos. Escrituración por el 75% (~341.250 USD, a confirmar porcentaje). Ya hay un refuerzo realizado (fecha y monto a completar). Informes de dominio e inhibición pedidos. Había un embargo que ya fue cancelado; ahora hay que esperar que la cancelación impacte en el informe catastral/registral."
+    }
+   ],
+   "updatedAt": "2026-07-16T12:30:00.000Z"
   }
  ],
- "updatedAt": "2026-07-16T11:57:07.000Z",
+ "updatedAt": "2026-07-16T12:30:00.000Z",
  "_nota": "Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
 }
