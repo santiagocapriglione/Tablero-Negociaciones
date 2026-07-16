@@ -202,15 +202,15 @@
    "vendedor": "",
    "telComprador": "",
    "telVendedor": "",
-   "ofertaCompra": "155000",
+   "ofertaCompra": "160000",
    "contraoferta": "",
    "valorAcordado": "",
    "valorEscrituracion": "110000",
-   "formaPago": "A priori: 110.000 (valor de escrituración) por transferencia; los 45.000 restantes en efectivo.",
+   "formaPago": "110.000 (valor de escrituración) por transferencia; los 50.000 restantes en mano.",
    "fechaEntrega": "",
    "requisitosComprador": "",
    "requisitosVendedor": "",
-   "condicionesEspeciales": "",
+   "condicionesEspeciales": "El comprador paga comisión de USD 6.000 (IVA incluido); debe dejarse constancia de esto en la oferta.",
    "reservaFecha": "",
    "reservaVence": "",
    "reservaMonto": "",
@@ -233,9 +233,14 @@
      "fecha": "2026-07-10",
      "parte": "comprador",
      "nota": "Forma de pago a priori: los 110.000 (valor de escrituración) por transferencia; los 45.000 restantes (diferencia hasta 155.000) en efectivo."
+    },
+    {
+     "fecha": "2026-07-16",
+     "parte": "comprador",
+     "nota": "Nueva oferta: USD 160.000. El comprador paga comisión de USD 6.000 (IVA incluido), debe hacerse constar en la oferta. Escritura por 110.000 (se transfiere) y el resto (50.000) se entrega en mano."
     }
    ],
-   "updatedAt": "2026-07-10T01:00:00.000Z"
+   "updatedAt": "2026-07-16T00:00:00.000Z"
   }
  ],
  "updatedAt": "2026-07-16T11:57:07.000Z",
