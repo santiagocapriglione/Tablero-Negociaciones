@@ -24,12 +24,12 @@
    "refuerzos": [],
    "boletoFecha": "",
    "escrituraFecha": "",
-   "dominioPedido": false,
-   "dominioFecha": "",
-   "dominioRecibido": false,
-   "inhibicionPedido": false,
-   "inhibicionFecha": "",
-   "inhibicionRecibido": false,
+   "dominioPedido": true,
+   "dominioFecha": "2026-07-20",
+   "dominioRecibido": true,
+   "inhibicionPedido": true,
+   "inhibicionFecha": "2026-07-20",
+   "inhibicionRecibido": true,
    "seguimiento": [
     {
      "fecha": "2026-07-05",
@@ -50,9 +50,14 @@
      "fecha": "2026-07-20",
      "parte": "sistema",
      "nota": "Del título surge que el departamento es bien ganancial: la esposa del vendedor (Federico Tobler) tiene que comparecer en la firma para prestar el asentimiento conyugal."
+    },
+    {
+     "fecha": "2026-07-20",
+     "parte": "sistema",
+     "nota": "Informes de Dominio e Inhibición: ya pedidos y recibidos, ambos OK."
     }
    ],
-   "updatedAt": "2026-07-20T14:35:58.000Z"
+   "updatedAt": "2026-07-20T14:39:29.000Z"
   },
   {
    "id": "pmr8a3j9i",
@@ -299,6 +304,6 @@
    "updatedAt": "2026-07-16T13:00:00.000Z"
   }
  ],
- "updatedAt": "2026-07-20T14:35:58.000Z",
+ "updatedAt": "2026-07-20T14:39:29.000Z",
  "_nota": "Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
 }
