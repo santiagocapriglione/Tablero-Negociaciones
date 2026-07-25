@@ -1,6 +1,45 @@
 {
  "props": [
   {
+   "id": "pms0eq3kz",
+   "direccion": "Avenida San Martín 2729",
+   "localidad": "Florida",
+   "estado": "En negociación",
+   "comprador": "",
+   "vendedor": "",
+   "telComprador": "",
+   "telVendedor": "",
+   "ofertaCompra": "160000",
+   "contraoferta": "",
+   "valorAcordado": "160000",
+   "valorEscrituracion": "130000",
+   "formaPago": "",
+   "fechaEntrega": "",
+   "requisitosComprador": "Ya se tiene el contacto del escribano",
+   "requisitosVendedor": "Aceptación de la propuesta",
+   "condicionesEspeciales": "",
+   "reservaFecha": "",
+   "reservaVence": "",
+   "reservaMonto": "",
+   "refuerzos": [],
+   "boletoFecha": "",
+   "escrituraFecha": "",
+   "dominioPedido": false,
+   "dominioFecha": "",
+   "dominioRecibido": false,
+   "inhibicionPedido": false,
+   "inhibicionFecha": "",
+   "inhibicionRecibido": false,
+   "seguimiento": [
+    {
+     "fecha": "2026-07-25",
+     "parte": "sistema",
+     "nota": "Negociación cerrada en 160.000 USD (escritura por 130.000). Se tiene contacto del escribano. Pendiente: aceptación de la parte vendedora."
+    }
+   ],
+   "updatedAt": "2026-07-25T13:30:47.000Z"
+  },
+  {
    "id": "pmr8a4n6a",
    "direccion": "Fitz Roy 2210",
    "localidad": "CABA",
@@ -314,6 +353,6 @@
    "updatedAt": "2026-07-16T13:00:00.000Z"
   }
  ],
- "updatedAt": "2026-07-25T13:29:40.000Z",
+ "updatedAt": "2026-07-25T13:30:47.000Z",
  "_nota": "Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
 }
