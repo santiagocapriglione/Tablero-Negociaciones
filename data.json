@@ -16,7 +16,7 @@
    "formaPago": "En negociación: vendedor quiere 100.000 USD por transferencia/depósito y 32.000 en mano; comprador quería todo en mano en banco elegido por él. Se negocia hacerlo en Banco Santander (propuesto por el comprador): el vendedor abriría cuenta ahí para recibir los 100.000.",
    "fechaEntrega": "",
    "requisitosComprador": "Chequear que Bauti haya enviado la documentación a su escribano y que esté todo OK",
-   "requisitosVendedor": "Abrir cuenta en Banco Santander para recibir los 100.000 USD por transferencia o depósito. El departamento es bien ganancial: su esposa debe comparecer en la firma para prestar el asentimiento conyugal.",
+   "requisitosVendedor": "Abrir cuenta en Banco Santander para recibir los 100.000 USD por transferencia o depósito. El departamento es bien ganancial: su esposa debe comparecer en la firma para prestar el asentimiento conyugal. Disponible a partir del 20/08 para firmar (última semana de agosto idealmente); traerá consigo la escritura.",
    "condicionesEspeciales": "Operación supeditada a que el vendedor abra la cuenta en Santander. Si no la abre, el comprador no puede depositarle ahí: se buscarían alternativas (quizás Banco Provincia) o se daría de baja la operación.",
    "reservaFecha": "",
    "reservaVence": "",
@@ -55,9 +55,14 @@
      "fecha": "2026-07-20",
      "parte": "sistema",
      "nota": "Informes de Dominio e Inhibición: ya pedidos y recibidos, ambos OK."
+    },
+    {
+     "fecha": "2026-07-25",
+     "parte": "vendedor",
+     "nota": "Federico Tobler regresa el 20 de agosto. Idealmente, la firma sería la última semana de agosto (25-29/08). Estará unos días antes por aquí y traerá consigo la escritura."
     }
    ],
-   "updatedAt": "2026-07-20T14:39:29.000Z"
+   "updatedAt": "2026-07-25T13:28:21.000Z"
   },
   {
    "id": "pmr8a3j9i",
@@ -304,6 +309,6 @@
    "updatedAt": "2026-07-16T13:00:00.000Z"
   }
  ],
- "updatedAt": "2026-07-20T14:39:29.000Z",
+ "updatedAt": "2026-07-25T13:28:21.000Z",
  "_nota": "Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
 }
