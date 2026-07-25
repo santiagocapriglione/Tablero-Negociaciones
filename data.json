@@ -80,7 +80,7 @@
    "formaPago": "",
    "fechaEntrega": "2026-09-30",
    "requisitosComprador": "Propone escriturar por un mínimo del 80% del valor (en vez de transferir el total como pedía antes)",
-   "requisitosVendedor": "Quiere escriturar por el 50-60% del valor y acepta que le transfieran solo ese monto, no más",
+   "requisitosVendedor": "Quiere escriturar por el 50-60% del valor y acepta que le transfieran solo ese monto, no más. No está el presidente de la sociedad (quien firma la escritura): recién se puede escriturar el 10 de septiembre.",
    "condicionesEspeciales": "El inquilino se queda hasta fin de septiembre 2026 (entrega recién ahí). El monto a escriturar (en blanco) lo definirá el VIR (valor inmobiliario de referencia); a partir de eso se define cómo se instrumenta el pago. Contrapropuesta de la compradora (mínimo 80% escriturado) trasladada a Nacho González, que habla con la parte vendedora — en espera de respuesta.",
    "reservaFecha": "",
    "reservaVence": "",
@@ -109,9 +109,14 @@
      "fecha": "2026-07-06",
      "parte": "comprador",
      "nota": "La compradora, Natalia Rocheti, propone escriturar por un mínimo del 80% del valor. Se trasladó la requisitoria a Nacho González (colega que habla con la parte vendedora); en espera de su respuesta."
+    },
+    {
+     "fecha": "2026-07-25",
+     "parte": "vendedor",
+     "nota": "No está disponible el presidente de la sociedad (quien firma la escritura). Recién se puede escriturar el 10 de septiembre."
     }
    ],
-   "updatedAt": "2026-07-06T14:30:00.000Z"
+   "updatedAt": "2026-07-25T13:29:40.000Z"
   },
   {
    "id": "pmr88fxjq",
@@ -309,6 +314,6 @@
    "updatedAt": "2026-07-16T13:00:00.000Z"
   }
  ],
- "updatedAt": "2026-07-25T13:28:21.000Z",
+ "updatedAt": "2026-07-25T13:29:40.000Z",
  "_nota": "Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
 }
