@@ -174,7 +174,7 @@
    "fechaEntrega": "2026-09-05",
    "requisitosComprador": "Hará el refuerzo cuando cobre el refuerzo de la venta de su propia casa. El usufructo que trababa esa venta lo está gestionando el banco para destrabarlo cuanto antes: se estima firma en 30 a 60 días. Sabina quiere conversar la reubicación/mudanza para llegar a un punto en común con Paula. Aún no define qué valor de escrituración le conviene en esta operación.",
    "requisitosVendedor": "Aceptan el valor ad referendum de que se concrete la venta de la propiedad que tienen reservada y reforzada, y de que la documentación de esa propiedad esté OK. No depende del valor de escrituración de Santa Rosa (la propiedad que compra): puede manejar el de esta operación de forma independiente.",
-   "condicionesEspeciales": "Vendedores compraron Santa Rosa 22934 (operación también nuestra): se la entregan en 3 a 6 meses, mientras que ellos entregarían esta casa en ~2 meses — gap de ocupación a resolver. Paula (vendedora) plantea el 29/10 como fecha; falta contrastarla contra la expectativa real de mudanza de Sabina. Adrián entregó el título de la propiedad a la escribana. Pendiente: volver a conversar valor de escrituración y fecha/mudanza entre ambas partes.",
+   "condicionesEspeciales": "PRIORIDAD: conseguir el refuerzo de esta operación. Vendedores compraron Santa Rosa 22934 (operación también nuestra): se la entregan en 3 a 6 meses, mientras que ellos entregarían esta casa en ~2 meses — gap de ocupación a resolver. Paula (vendedora) plantea el 29/10 como fecha; falta contrastarla contra la expectativa real de mudanza de Sabina. Adrián entregó el título de la propiedad a la escribana; ya se le enviaron también los comprobantes de impuestos y servicios para que vaya arrancando el trámite. Pendiente: volver a conversar valor de escrituración y fecha/mudanza entre ambas partes.",
    "reservaFecha": "",
    "reservaVence": "",
    "reservaMonto": "",
@@ -239,9 +239,14 @@
      "fecha": "2026-07-28",
      "parte": "vendedor",
      "nota": "Paula no depende del valor de escrituración de Santa Rosa (la propiedad que compra): puede manejar independientemente el de esta operación. Queda pendiente volver a conversar valor de escrituración y fecha/mudanza con Sabina."
+    },
+    {
+     "fecha": "2026-07-28",
+     "parte": "sistema",
+     "nota": "Prioridad: conseguir el refuerzo de esta operación. Se envió a la escribana el título y los comprobantes de impuestos y servicios para que vaya arrancando el trámite."
     }
    ],
-   "updatedAt": "2026-07-28T16:00:00.000Z"
+   "updatedAt": "2026-07-28T16:30:00.000Z"
   },
   {
    "id": "pmrck6q34",
@@ -383,6 +388,6 @@
    "updatedAt": "2026-07-16T13:00:00.000Z"
   }
  ],
- "updatedAt": "2026-07-28T16:00:00.000Z",
+ "updatedAt": "2026-07-28T16:30:00.000Z",
  "_nota": "Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
 }
