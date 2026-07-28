@@ -172,9 +172,9 @@
    "valorEscrituracion": "",
    "formaPago": "",
    "fechaEntrega": "2026-09-05",
-   "requisitosComprador": "Hará el refuerzo cuando cobre el refuerzo de la venta de su propia casa. Venta trabada: apareció un usufructo sobre esa propiedad y no pudieron avanzar ni cobrar el refuerzo. Falta confirmar la expectativa real de mudanza de Sabina.",
-   "requisitosVendedor": "Aceptan el valor ad referendum de que se concrete la venta de la propiedad que tienen reservada y reforzada, y de que la documentación de esa propiedad esté OK",
-   "condicionesEspeciales": "Vendedores compraron Santa Rosa 22934 (operación también nuestra): se la entregan en 3 a 6 meses, mientras que ellos entregarían esta casa en ~2 meses — gap de ocupación a resolver. Valor de escrituración y fecha de firma aún sin hablar. Paula (vendedora) plantea el 29/10 como fecha; falta contrastarla contra la expectativa real de mudanza de Sabina, hoy condicionada al usufructo de su venta. Adrián entregó el título de la propiedad a la escribana.",
+   "requisitosComprador": "Hará el refuerzo cuando cobre el refuerzo de la venta de su propia casa. El usufructo que trababa esa venta lo está gestionando el banco para destrabarlo cuanto antes: se estima firma en 30 a 60 días. Sabina quiere conversar la reubicación/mudanza para llegar a un punto en común con Paula. Aún no define qué valor de escrituración le conviene en esta operación.",
+   "requisitosVendedor": "Aceptan el valor ad referendum de que se concrete la venta de la propiedad que tienen reservada y reforzada, y de que la documentación de esa propiedad esté OK. No depende del valor de escrituración de Santa Rosa (la propiedad que compra): puede manejar el de esta operación de forma independiente.",
+   "condicionesEspeciales": "Vendedores compraron Santa Rosa 22934 (operación también nuestra): se la entregan en 3 a 6 meses, mientras que ellos entregarían esta casa en ~2 meses — gap de ocupación a resolver. Paula (vendedora) plantea el 29/10 como fecha; falta contrastarla contra la expectativa real de mudanza de Sabina. Adrián entregó el título de la propiedad a la escribana. Pendiente: volver a conversar valor de escrituración y fecha/mudanza entre ambas partes.",
    "reservaFecha": "",
    "reservaVence": "",
    "reservaMonto": "",
@@ -224,9 +224,24 @@
      "fecha": "2026-07-28",
      "parte": "sistema",
      "nota": "Adrián entregó el título de la propiedad a la escribana."
+    },
+    {
+     "fecha": "2026-07-28",
+     "parte": "sistema",
+     "nota": "Santiago habló con Sabina y con el colega sobre el usufructo: lo está gestionando el banco para destrabarlo cuanto antes; se estima que la firma de la venta de Sabina ocurriría en 30 a 60 días."
+    },
+    {
+     "fecha": "2026-07-28",
+     "parte": "comprador",
+     "nota": "Sabina quiere conversar la reubicación/mudanza para llegar a un punto en común con Paula. Todavía no define qué valor de escrituración le conviene en esta operación."
+    },
+    {
+     "fecha": "2026-07-28",
+     "parte": "vendedor",
+     "nota": "Paula no depende del valor de escrituración de Santa Rosa (la propiedad que compra): puede manejar independientemente el de esta operación. Queda pendiente volver a conversar valor de escrituración y fecha/mudanza con Sabina."
     }
    ],
-   "updatedAt": "2026-07-28T15:00:00.000Z"
+   "updatedAt": "2026-07-28T16:00:00.000Z"
   },
   {
    "id": "pmrck6q34",
@@ -368,6 +383,6 @@
    "updatedAt": "2026-07-16T13:00:00.000Z"
   }
  ],
- "updatedAt": "2026-07-28T15:00:00.000Z",
+ "updatedAt": "2026-07-28T16:00:00.000Z",
  "_nota": "Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
 }
