@@ -172,9 +172,9 @@
    "valorEscrituracion": "",
    "formaPago": "",
    "fechaEntrega": "2026-09-05",
-   "requisitosComprador": "Hará el refuerzo cuando cobre el refuerzo de la venta de su propia casa (estimado en ~15 días, hacia el 20/07/2026)",
+   "requisitosComprador": "Hará el refuerzo cuando cobre el refuerzo de la venta de su propia casa. Venta trabada: apareció un usufructo sobre esa propiedad y no pudieron avanzar ni cobrar el refuerzo. Falta confirmar la expectativa real de mudanza de Sabina.",
    "requisitosVendedor": "Aceptan el valor ad referendum de que se concrete la venta de la propiedad que tienen reservada y reforzada, y de que la documentación de esa propiedad esté OK",
-   "condicionesEspeciales": "Vendedores compraron Santa Rosa 22934 (operación también nuestra): se la entregan en 3 a 6 meses, mientras que ellos entregarían esta casa en ~2 meses — gap de ocupación a resolver. Valor de escrituración y fecha de firma aún sin hablar.",
+   "condicionesEspeciales": "Vendedores compraron Santa Rosa 22934 (operación también nuestra): se la entregan en 3 a 6 meses, mientras que ellos entregarían esta casa en ~2 meses — gap de ocupación a resolver. Valor de escrituración y fecha de firma aún sin hablar. Paula (vendedora) plantea el 29/10 como fecha; falta contrastarla contra la expectativa real de mudanza de Sabina, hoy condicionada al usufructo de su venta. Adrián entregó el título de la propiedad a la escribana.",
    "reservaFecha": "",
    "reservaVence": "",
    "reservaMonto": "",
@@ -209,9 +209,24 @@
      "fecha": "2026-07-05",
      "parte": "sistema",
      "nota": "Apellido de la compradora confirmado vía DocuSign (Actualizacion_Oferta_AristobuloDelValle2280_Gorini.pdf, firmado el 04/07): Sabina Laura Gorini."
+    },
+    {
+     "fecha": "2026-07-28",
+     "parte": "comprador",
+     "nota": "A Sabina le apareció un usufructo en la propiedad que está vendiendo (la que financia el refuerzo de esta compra). No pudieron avanzar ni cobrar el refuerzo de esa venta. Pendiente confirmar su expectativa real de mudanza."
+    },
+    {
+     "fecha": "2026-07-28",
+     "parte": "vendedor",
+     "nota": "Paula plantea el 29/10 como fecha. Falta contrastarla contra la expectativa de mudanza de Sabina, hoy trabada por el usufructo de su venta."
+    },
+    {
+     "fecha": "2026-07-28",
+     "parte": "sistema",
+     "nota": "Adrián entregó el título de la propiedad a la escribana."
     }
    ],
-   "updatedAt": "2026-07-05T21:45:00.000Z"
+   "updatedAt": "2026-07-28T15:00:00.000Z"
   },
   {
    "id": "pmrck6q34",
@@ -353,6 +368,6 @@
    "updatedAt": "2026-07-16T13:00:00.000Z"
   }
  ],
- "updatedAt": "2026-07-25T13:30:47.000Z",
+ "updatedAt": "2026-07-28T15:00:00.000Z",
  "_nota": "Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
 }
