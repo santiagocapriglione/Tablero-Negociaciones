@@ -386,8 +386,64 @@
     }
    ],
    "updatedAt": "2026-07-16T13:00:00.000Z"
+  },
+  {
+   "id": "pn4y2q7v1",
+   "direccion": "Avenida Cabildo 4667",
+   "localidad": "CABA (Núñez)",
+   "estado": "Refuerzo",
+   "comprador": "Guillermo Calcaño",
+   "vendedor": "Nahuel Alio",
+   "telComprador": "",
+   "telVendedor": "",
+   "ofertaCompra": "221500",
+   "contraoferta": "",
+   "valorAcordado": "221500",
+   "valorEscrituracion": "",
+   "formaPago": "",
+   "fechaEntrega": "2026-09-13",
+   "requisitosComprador": "",
+   "requisitosVendedor": "Nahuel necesita vender para comprar: cobra de esta operación, compra la otra propiedad (boleto de Altos de Núñez) y recién ahí se muda. Está de viaje y vuelve el 5-6 de septiembre; después de esa fecha no están disponibles los vendedores de la propiedad que él compra.",
+   "condicionesEspeciales": "Firma tope: 18/09/2026. OPCIÓN EN ANÁLISIS: firmar a fin de agosto y otorgar comodato a favor de Nahuel hasta el 13/09, para destrabar el calendario (Nahuel vuelve el 5-6/09 y los vendedores de lo que él compra no están disponibles después de esa fecha). PENDIENTE: valor de la cesión del boleto de Altos de Núñez, que se escrituraría en torno a 150.000-155.000 USD, y el costeo de esa cesión (impuestos, sellos y honorarios).",
+   "reservaFecha": "",
+   "reservaVence": "",
+   "reservaMonto": "",
+   "refuerzos": [
+    { "fecha": "", "monto": "22150", "pagado": true }
+   ],
+   "boletoFecha": "",
+   "escrituraFecha": "2026-09-18",
+   "dominioPedido": true,
+   "dominioFecha": "2026-06-20",
+   "dominioRecibido": false,
+   "inhibicionPedido": true,
+   "inhibicionFecha": "2026-06-20",
+   "inhibicionRecibido": false,
+   "seguimiento": [
+    {
+     "fecha": "2026-08-05",
+     "parte": "sistema",
+     "nota": "Alta de la negociación por audio de Santiago: Avenida Cabildo 4667, Núñez. Comprador Guillermo Calcaño, vendedor Nahuel Alio. Valor cerrado en USD 221.500. Guillermo ya hizo un refuerzo del orden del 10% del valor (~22.150 USD, monto y fecha exactos a confirmar contra el comprobante)."
+    },
+    {
+     "fecha": "2026-08-05",
+     "parte": "sistema",
+     "nota": "Informes de Dominio e Inhibición: pedidos hace aproximadamente un mes y medio (≈20/06/2026). Falta confirmar si ya llegaron; si tienen esa antigüedad, revisar su vigencia frente a la fecha de escritura."
+    },
+    {
+     "fecha": "2026-08-05",
+     "parte": "vendedor",
+     "nota": "Firma tope el 18/09. Se evalúa firmar a fin de agosto con comodato a favor de Nahuel hasta el 13/09: Nahuel vuelve el 5-6 de septiembre y después de esa fecha no están los vendedores de la propiedad que él compra. Nahuel necesita vender para comprar: cobrar, comprar lo otro y luego mudarse."
+    },
+    {
+     "fecha": "2026-08-05",
+     "parte": "sistema",
+     "nota": "Pendiente: definir el valor de la cesión del boleto de Altos de Núñez (se escrituraría en torno a 150.000-155.000 USD) y calcular los costos de esa cesión."
+    }
+   ],
+   "updatedAt": "2026-08-05T12:00:00.000Z"
   }
  ],
- "updatedAt": "2026-07-28T16:30:00.000Z",
+ "updatedAt": "2026-08-05T12:00:00.000Z",
  "_nota": "Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
 }
