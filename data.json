@@ -404,7 +404,7 @@
    "fechaEntrega": "2026-09-13",
    "requisitosComprador": "",
    "requisitosVendedor": "Nahuel necesita vender para comprar: cobra de esta operación, compra la otra propiedad (boleto de Altos de Núñez) y recién ahí se muda. Está de viaje y vuelve el 5-6 de septiembre; después de esa fecha no están disponibles los vendedores de la propiedad que él compra.",
-   "condicionesEspeciales": "Firma tope: 18/09/2026. OPCIÓN EN ANÁLISIS: firmar a fin de agosto y otorgar comodato a favor de Nahuel hasta el 13/09, para destrabar el calendario (Nahuel vuelve el 5-6/09 y los vendedores de lo que él compra no están disponibles después de esa fecha). PENDIENTE: valor de la cesión del boleto de Altos de Núñez, que se escrituraría en torno a 150.000-155.000 USD, y el costeo de esa cesión (impuestos, sellos y honorarios).",
+   "condicionesEspeciales": "Firma tope: 18/09/2026, pero se decide adelantarla al 28/08, otorgando comodato a favor de Nahuel hasta el 13/09 (Nahuel vuelve el 5-6/09 y los vendedores de lo que él compra no están disponibles después de esa fecha). Cesión del boleto de Altos de Núñez: se escritura en USD 155.000. Excedente (base imponible) ~USD 148.000 (~$148,2M) sobre un valor total de la unidad de ~$226M de pesos; por la diferencia entre excedente y valor de escritura, la parte compradora de esa cesión pagará entre $350.000 y $500.000 de impuestos. Gastos de la cesión a cargo de la parte compradora: el instrumento (~$290.000), las certificaciones de firma y el excedente en el número de la cesión de la unidad.",
    "reservaFecha": "",
    "reservaVence": "",
    "reservaMonto": "",
@@ -412,7 +412,7 @@
     { "fecha": "", "monto": "22150", "pagado": true }
    ],
    "boletoFecha": "",
-   "escrituraFecha": "2026-09-18",
+   "escrituraFecha": "2026-08-28",
    "dominioPedido": true,
    "dominioFecha": "2026-06-20",
    "dominioRecibido": false,
@@ -439,11 +439,16 @@
      "fecha": "2026-08-05",
      "parte": "sistema",
      "nota": "Pendiente: definir el valor de la cesión del boleto de Altos de Núñez (se escrituraría en torno a 150.000-155.000 USD) y calcular los costos de esa cesión."
+    },
+    {
+     "fecha": "2026-08-10",
+     "parte": "sistema",
+     "nota": "Se define firmar el 28/08 (en vez de esperar al tope del 18/09), con comodato a favor de Nahuel hasta el 13/09. Cesión del boleto de Altos de Núñez: se escritura en USD 155.000. El excedente (base imponible) está hoy en torno a USD 148.000 (~$148,2M) sobre un valor total de la unidad de ~$226M de pesos; por escriturar por encima del excedente, la parte compradora de esa cesión pagará entre $350.000 y $500.000 de impuestos. Gastos de la cesión a cargo de la parte compradora: el instrumento (~$290.000), las certificaciones de firma y el excedente en el número de la cesión de la unidad."
     }
    ],
-   "updatedAt": "2026-08-05T12:00:00.000Z"
+   "updatedAt": "2026-08-10T14:00:00.000Z"
   }
  ],
- "updatedAt": "2026-08-05T12:00:00.000Z",
+ "updatedAt": "2026-08-10T14:00:00.000Z",
  "_nota": "Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
 }
