@@ -445,7 +445,7 @@
   },
   {
    "id": "ptl04op",
-   "direccion": "Cube Palermo — Oficina 14-3",
+   "direccion": "Av. Juan B. Justo 1500 (Edificio Qiub Palermo) — Oficina 14-3",
    "localidad": "CABA (Palermo)",
    "estado": "En negociación",
    "comprador": "",
@@ -482,12 +482,17 @@
     {
      "fecha": "2026-09-07",
      "parte": "sistema",
+     "nota": "Dirección precisada por Santiago: Qiub es el nombre del edificio; la propiedad está en Av. Juan B. Justo 1500, esquina Honduras (Palermo, CABA)."
+    },
+    {
+     "fecha": "2026-09-07",
+     "parte": "sistema",
      "nota": "Esquema ideal de instrumentación: mitad y mitad en la escrituración (165.000 escriturados) con boleto A y boleto B. IMPORTANTE: esto NO figura en la reserva, hay que acordarlo y dejarlo por escrito aparte."
     }
    ],
-   "updatedAt": "2026-09-07T16:05:13.000Z"
+   "updatedAt": "2026-09-07T16:22:40.000Z"
   }
  ],
- "updatedAt": "2026-09-07T16:05:13.000Z",
+ "updatedAt": "2026-09-07T16:22:40.000Z",
  "_nota": "Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
 }
