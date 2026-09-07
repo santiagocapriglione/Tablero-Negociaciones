@@ -442,8 +442,52 @@
     }
    ],
    "updatedAt": "2026-08-05T12:00:00.000Z"
+  },
+  {
+   "id": "ptl04op",
+   "direccion": "Cube Palermo — Oficina 14-3",
+   "localidad": "CABA (Palermo)",
+   "estado": "En negociación",
+   "comprador": "",
+   "vendedor": "Obras Metálicas (repr. Tato Isabelo)",
+   "telComprador": "",
+   "telVendedor": "",
+   "ofertaCompra": "330000",
+   "contraoferta": "",
+   "valorAcordado": "330000",
+   "valorEscrituracion": "165000",
+   "formaPago": "Idealmente todo en efectivo. Mitad y mitad: 50% por escrituración (165.000) y el otro 50% por fuera; se instrumentaría con boleto A y boleto B (esto último NO figura en la reserva).",
+   "fechaEntrega": "",
+   "requisitosComprador": "Paga el 2% de comisión. A su cargo los gastos de la cesión/escrituración.",
+   "requisitosVendedor": "Firmar la aceptación de la oferta en 330.000 USD (Tato Isabelo, representante de Obras Metálicas). Paga el 3% de comisión.",
+   "condicionesEspeciales": "Honorarios: 3% a cargo del vendedor (Tato) y 2% a cargo del comprador; operación compartida con colega (\"10 con colega\" — confirmar el reparto exacto). Esquema mitad y mitad en escrituración con boleto A y B: es lo ideal pero NO está en la reserva, hay que acordarlo aparte. Gastos de la cesión a cargo del comprador. Todo lo demás está reflejado en la reserva.",
+   "reservaFecha": "",
+   "reservaVence": "",
+   "reservaMonto": "",
+   "refuerzos": [],
+   "boletoFecha": "",
+   "escrituraFecha": "",
+   "dominioPedido": false,
+   "dominioFecha": "",
+   "dominioRecibido": false,
+   "inhibicionPedido": false,
+   "inhibicionFecha": "",
+   "inhibicionRecibido": false,
+   "seguimiento": [
+    {
+     "fecha": "2026-09-07",
+     "parte": "sistema",
+     "nota": "Alta por audio de Santiago: oferta por la oficina 14-3 de Cube Palermo en USD 330.000. Se espera que Tato Isabelo, representante de Obras Metálicas (parte vendedora), firme la aceptación por ese valor. Honorarios: 3% lo paga Tato y 2% el comprador; operación compartida con colega (\"10 con colega\", reparto a confirmar). Gastos de la cesión a cargo del comprador. Pago idealmente en efectivo. Todo esto ya está volcado en la reserva."
+    },
+    {
+     "fecha": "2026-09-07",
+     "parte": "sistema",
+     "nota": "Esquema ideal de instrumentación: mitad y mitad en la escrituración (165.000 escriturados) con boleto A y boleto B. IMPORTANTE: esto NO figura en la reserva, hay que acordarlo y dejarlo por escrito aparte."
+    }
+   ],
+   "updatedAt": "2026-09-07T16:05:13.000Z"
   }
  ],
- "updatedAt": "2026-08-05T12:00:00.000Z",
+ "updatedAt": "2026-09-07T16:05:13.000Z",
  "_nota": "Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
 }
