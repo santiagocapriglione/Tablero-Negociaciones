@@ -16,10 +16,10 @@
    "formaPago": "Gastos de escrituración según usos y costumbres.",
    "fechaEntrega": "",
    "requisitosComprador": "Efectivización de la venta de su propiedad (la operación es ad referéndum de que esa venta se concrete).",
-   "requisitosVendedor": "Reubicación de los vendedores (la operación es ad referéndum de que consigan dónde mudarse).",
-   "condicionesEspeciales": "Operación ad referéndum de: (1) la reubicación de la parte vendedora y (2) la efectivización de la venta de la parte compradora. Escrituración: la parte compradora puede escriturar al 100% (192.000 USD); la parte vendedora define lo que más le convenga. A priori la opción sería escriturar al 100%. Gastos de escrituración según usos y costumbres.",
+   "requisitosVendedor": "Reubicación de los vendedores: tienen un plazo de 60 días desde la reserva (vence 09/11/2026), prorrogable. La idea acordada es que en los primeros 30 días (al 10/10/2026) ya tengan algo reservado.",
+   "condicionesEspeciales": "Operación ad referéndum de: (1) la reubicación de la parte vendedora, con plazo de 60 días desde la reserva (hasta el 09/11/2026), prorrogable, y con la expectativa de que tengan algo reservado dentro de los primeros 30 días (10/10/2026) y (2) la efectivización de la venta de la parte compradora. Escrituración: la parte compradora puede escriturar al 100% (192.000 USD); la parte vendedora define lo que más le convenga. A priori la opción sería escriturar al 100%. Gastos de escrituración según usos y costumbres.",
    "reservaFecha": "2026-09-10",
-   "reservaVence": "",
+   "reservaVence": "2026-11-09",
    "reservaMonto": "",
    "refuerzos": [],
    "boletoFecha": "",
@@ -35,9 +35,14 @@
      "fecha": "2026-09-10",
      "parte": "sistema",
      "nota": "Negociación cerrada y reservada en 192.000 USD. Gastos de escrituración según usos y costumbres. Escrituración: la parte compradora puede escriturar al 100%; la parte vendedora define lo que más le convenga, a priori sería escriturar al 100%. La operación es ad referéndum de la reubicación de los vendedores y de la efectivización de la venta de los compradores."
+    },
+    {
+     "fecha": "2026-09-10",
+     "parte": "sistema",
+     "nota": "Se fija plazo de 60 días para que los vendedores consigan casa (vence el 09/11/2026), prorrogable de común acuerdo. La idea es que dentro de los primeros 30 días (al 10/10/2026) ya tengan algo reservado."
     }
    ],
-   "updatedAt": "2026-09-10T12:00:00.000Z"
+   "updatedAt": "2026-09-10T12:30:00.000Z"
   },
   {
    "id": "pms0eq3kz",
@@ -495,6 +500,6 @@
    "updatedAt": "2026-08-05T12:00:00.000Z"
   }
  ],
- "updatedAt": "2026-09-10T12:00:00.000Z",
+ "updatedAt": "2026-09-10T12:30:00.000Z",
  "_nota": "Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
 }
