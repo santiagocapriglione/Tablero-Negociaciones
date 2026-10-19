@@ -498,8 +498,47 @@
     }
    ],
    "updatedAt": "2026-10-19T21:02:57.000Z"
+  },
+  {
+   "id": "pmvfqrnyr",
+   "direccion": "Cuba — 3° D",
+   "localidad": "CABA",
+   "estado": "En negociación",
+   "comprador": "Matías Lipman",
+   "vendedor": "",
+   "telComprador": "",
+   "telVendedor": "",
+   "ofertaCompra": "216500",
+   "contraoferta": "225000",
+   "valorAcordado": "",
+   "valorEscrituracion": "",
+   "formaPago": "",
+   "fechaEntrega": "",
+   "requisitosComprador": "",
+   "requisitosVendedor": "",
+   "condicionesEspeciales": "Gastos compartidos. Valor pretendido original USD 225.000. Comprador dispuesto a llegar a USD 220.000 gastos compartidos como máximo; vendedores en USD 225.000 gastos compartidos. Brecha USD 5.000. (Verificar dirección: transcripto como \"cube del 3D\".)",
+   "reservaFecha": "",
+   "reservaVence": "",
+   "reservaMonto": "",
+   "refuerzos": [],
+   "boletoFecha": "",
+   "escrituraFecha": "",
+   "dominioPedido": false,
+   "dominioFecha": "",
+   "dominioRecibido": false,
+   "inhibicionPedido": false,
+   "inhibicionFecha": "",
+   "inhibicionRecibido": false,
+   "seguimiento": [
+    {
+     "fecha": "2026-10-19",
+     "parte": "sistema",
+     "nota": "Operación nueva. Pretendido USD 225.000. Oferta de Matías Lipman USD 216.500; su techo es USD 220.000 gastos compartidos. Los vendedores contraofertan USD 225.000 gastos compartidos. Brecha USD 5.000 — Santiago evaluando cómo seguir."
+    }
+   ],
+   "updatedAt": "2026-10-19T21:03:35.000Z"
   }
  ],
- "updatedAt": "2026-10-19T21:02:57.000Z",
+ "updatedAt": "2026-10-19T21:03:35.000Z",
  "_nota": "Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
 }
