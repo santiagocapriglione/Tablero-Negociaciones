@@ -457,7 +457,7 @@
   },
   {
    "id": "pmvfqqbiq",
-   "direccion": "Star Tower",
+   "direccion": "Star Tower, Unidad 12 D 2",
    "localidad": "",
    "estado": "En negociación",
    "comprador": "",
@@ -490,11 +490,16 @@
      "fecha": "2026-10-19",
      "parte": "sistema",
      "nota": "Operación nueva. Cerrada en USD 235.000 por el valor de compra. El abogado interviniente cobra 2,5% del valor de la operación por la cesión (≈ USD 5.875); se intentó bajarlo sin éxito. A eso se suman certificación de firmas e impuesto de sellos. Pendiente: definir con comprador y vendedor cómo se reparten esos costos."
+    },
+    {
+     "fecha": "2026-10-19",
+     "parte": "sistema",
+     "nota": "Se precisa la unidad: 12 D 2."
     }
    ],
-   "updatedAt": "2026-10-19T21:02:33.000Z"
+   "updatedAt": "2026-10-19T21:02:57.000Z"
   }
  ],
- "updatedAt": "2026-10-19T21:02:33.000Z",
+ "updatedAt": "2026-10-19T21:02:57.000Z",
  "_nota": "Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
 }
