@@ -179,7 +179,11 @@
    "reservaVence": "",
    "reservaMonto": "",
    "refuerzos": [
-    { "fecha": "2026-07-20", "monto": "", "pagado": false }
+    {
+     "fecha": "2026-07-20",
+     "monto": "",
+     "pagado": false
+    }
    ],
    "boletoFecha": "",
    "escrituraFecha": "",
@@ -358,7 +362,11 @@
    "reservaVence": "",
    "reservaMonto": "",
    "refuerzos": [
-    { "fecha": "", "monto": "", "pagado": true }
+    {
+     "fecha": "",
+     "monto": "",
+     "pagado": true
+    }
    ],
    "boletoFecha": "",
    "escrituraFecha": "",
@@ -409,7 +417,11 @@
    "reservaVence": "",
    "reservaMonto": "",
    "refuerzos": [
-    { "fecha": "", "monto": "22150", "pagado": true }
+    {
+     "fecha": "",
+     "monto": "22150",
+     "pagado": true
+    }
    ],
    "boletoFecha": "",
    "escrituraFecha": "2026-09-18",
@@ -442,8 +454,47 @@
     }
    ],
    "updatedAt": "2026-08-05T12:00:00.000Z"
+  },
+  {
+   "id": "pmvfqqbiq",
+   "direccion": "Star Tower",
+   "localidad": "",
+   "estado": "En negociación",
+   "comprador": "",
+   "vendedor": "",
+   "telComprador": "",
+   "telVendedor": "",
+   "ofertaCompra": "",
+   "contraoferta": "",
+   "valorAcordado": "235000",
+   "valorEscrituracion": "",
+   "formaPago": "Cesión de boleto",
+   "fechaEntrega": "",
+   "requisitosComprador": "",
+   "requisitosVendedor": "",
+   "condicionesEspeciales": "Costos de la cesión sin definir quién los paga: honorarios del abogado interviniente 2,5% del valor de la operación (≈ USD 5.875, no se pudo bajar) + certificación de firmas + impuesto de sellos.",
+   "reservaFecha": "",
+   "reservaVence": "",
+   "reservaMonto": "",
+   "refuerzos": [],
+   "boletoFecha": "",
+   "escrituraFecha": "",
+   "dominioPedido": false,
+   "dominioFecha": "",
+   "dominioRecibido": false,
+   "inhibicionPedido": false,
+   "inhibicionFecha": "",
+   "inhibicionRecibido": false,
+   "seguimiento": [
+    {
+     "fecha": "2026-10-19",
+     "parte": "sistema",
+     "nota": "Operación nueva. Cerrada en USD 235.000 por el valor de compra. El abogado interviniente cobra 2,5% del valor de la operación por la cesión (≈ USD 5.875); se intentó bajarlo sin éxito. A eso se suman certificación de firmas e impuesto de sellos. Pendiente: definir con comprador y vendedor cómo se reparten esos costos."
+    }
+   ],
+   "updatedAt": "2026-10-19T21:02:33.000Z"
   }
  ],
- "updatedAt": "2026-08-05T12:00:00.000Z",
+ "updatedAt": "2026-10-19T21:02:33.000Z",
  "_nota": "Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
 }
