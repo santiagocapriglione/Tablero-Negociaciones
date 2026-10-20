@@ -458,7 +458,7 @@
   {
    "id": "pmvfqqbiq",
    "direccion": "Star Tower, Unidad 12 D 2",
-   "localidad": "",
+   "localidad": "Olivos",
    "estado": "En negociación",
    "comprador": "",
    "vendedor": "",
@@ -495,9 +495,14 @@
      "fecha": "2026-10-19",
      "parte": "sistema",
      "nota": "Se precisa la unidad: 12 D 2."
+    },
+    {
+     "fecha": "2026-10-20",
+     "parte": "sistema",
+     "nota": "Confirmado: valor USD 235.000. Localidad: Olivos."
     }
    ],
-   "updatedAt": "2026-10-19T21:02:57.000Z"
+   "updatedAt": "2026-10-20T01:13:07.000Z"
   },
   {
    "id": "pmvfqrnyr",
@@ -539,6 +544,6 @@
    "updatedAt": "2026-10-19T21:03:35.000Z"
   }
  ],
- "updatedAt": "2026-10-19T21:03:35.000Z",
+ "updatedAt": "2026-10-20T01:13:07.000Z",
  "_nota": "Este archivo lo mantiene Claude a partir de tus audios; el navegador lo lee al abrir la página."
 }
